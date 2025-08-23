@@ -1,0 +1,22 @@
+# Secrets
+config/mysql_connection.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large data files (commit only small samples if needed)
+data/
+*.csv
+*.parquet
+*.jsonl
+*.zip
+
+# Logs
+*.log
+
+# OS junk (optional)
+.DS_Store
+Thumbs.db
